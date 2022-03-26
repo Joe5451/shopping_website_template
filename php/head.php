@@ -16,7 +16,7 @@
 <body>
 
 <header id="main_header" class="shadow-md ">
-    <a href="" class="main_header_logo">TEMPLATE</a>
+    <a href="#" class="main_header_logo">TEMPLATE</a>
 
     <nav class="main_header_navi">
         <div class="main_header_link_wrap">

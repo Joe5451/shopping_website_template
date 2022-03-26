@@ -2,13 +2,13 @@
 
 <div class="home_slider_block">
     <div class="home_slider_container">
-        <a href="" class="home_slider_link">
+        <a href="#" class="home_slider_link">
             <div class="home_slider_content"></div>
         </a>
-        <a href="" class="home_slider_link">
+        <a href="#" class="home_slider_link">
             <div class="home_slider_content"></div>
         </a>
-        <a href="" class="home_slider_link">
+        <a href="#" class="home_slider_link">
             <div class="home_slider_content"></div>
         </a>
     </div>
@@ -168,32 +168,25 @@
 
 <section class="home_section home_section_secondary_bg">
     <h3 class="home_section_title">關於我們</h3>
-
-    <div class="home_intro_slider_container">
-        <div class="home_intro">
-            <div class="home_intro_icon_wrap">
-                <i class="fas fa-utensils"></i>
+    
+    <div class="home_section_content">
+        <div class="home_intro_slider_container">
+            <div class="home_intro">
+                <h4 class="home_intro_title">美食</h4>
+                <p class="home_intro_content">除了購物還有美食</p>
             </div>
-            <h4 class="home_intro_title">美食</h4>
-            <p class="home_intro_content">除了購物還有美食</p>
-        </div>
-        <div class="home_intro">
-            <div class="home_intro_icon_wrap">
-                <i class="fas fa-couch"></i>
+            <div class="home_intro">
+                <h4 class="home_intro_title">休閒</h4>
+                <p class="home_intro_content">除了購物還有放鬆</p>
             </div>
-            <h4 class="home_intro_title">休閒</h4>
-            <p class="home_intro_content">除了購物還有放鬆</p>
-        </div>
-        <div class="home_intro">
-            <div class="home_intro_icon_wrap">
-                <i class="fas fa-gamepad"></i>
+            <div class="home_intro">
+                <h4 class="home_intro_title">玩樂</h4>
+                <p class="home_intro_content">除了購物還有玩樂</p>
             </div>
-            <h4 class="home_intro_title">玩樂</h4>
-            <p class="home_intro_content">除了購物還有玩樂</p>
         </div>
+    
+        <div id="feature_intro_dots_container" class="slider_dots_container"></div>
     </div>
-
-    <div id="feature_intro_dots_container" class="slider_dots_container"></div>
 
     <script>
         $('.home_intro_slider_container').slick({
@@ -217,7 +210,8 @@
                     breakpoint: 480,
                     settings: {
                         slidesToShow: 1,
-                        slidesToScroll: 1
+                        slidesToScroll: 1,
+                        dots: true
                     }
                 }
             ]
@@ -225,5 +219,30 @@
     </script>
 </section>
 
+<section class="home_section">
+    <h3 class="home_section_title">發現更多</h3>
+    <h4 class="home_section_subtitle">還有許多超值商品等待您的探索!</h4>
+
+    <div class="home_discover_container">
+        <a href="#" class="home_discover_block">
+            <div class="home_discover_img_wrap">
+                <img src="img/img2.png" alt="" class="home_discover_img">
+            </div>
+            <div class="home_discover_content">
+                <div class="home_discover_title">當季商品</div>
+                <div class="home_discover_more_text">更多 <i class="fas fa-arrow-right"></i></div>
+            </div>
+        </a>
+        <a href="#" class="home_discover_block">
+            <div class="home_discover_img_wrap">
+                <img src="img/img2.png" alt="" class="home_discover_img">
+            </div>
+            <div class="home_discover_content">
+                <div class="home_discover_title">限量商品</div>
+                <div class="home_discover_more_text">更多 <i class="fas fa-arrow-right"></i></div>
+            </div>
+        </a>
+    </div>
+</section>
 
 <?php include('php/foot.php'); ?>
