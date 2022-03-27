@@ -10,9 +10,9 @@
 
 <section class="page_section container mx-auto">
     <nav class="page_breadcrumb">
-        <a href="#" class="page_breadcrumb_link">首頁</a>
+        <a href="welcome.php" class="page_breadcrumb_link">首頁</a>
         <span class="page_breadcrumb_separator">〉</span>
-        <a href="#" class="page_breadcrumb_link active">最新消息</a>
+        <a href="news.php" class="page_breadcrumb_link active">最新消息</a>
     </nav>
 
     <div class="news_category_nav custom_horizontal_scrollbar">

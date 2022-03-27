@@ -17,3 +17,19 @@
 .custom_horizontal_scrollbar::-webkit-scrollbar-thumb:hover {
 	background: #94a3b8; 
 }
+
+.custom_scrollbar::-webkit-scrollbar {
+    width: 5px;
+}
+
+.custom_scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+.custom_scrollbar::-webkit-scrollbar-thumb {
+	background: #cbd5e1; 
+}
+
+.custom_scrollbar::-webkit-scrollbar-thumb:hover {
+	background: #94a3b8; 
+}

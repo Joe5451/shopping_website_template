@@ -29,7 +29,7 @@
             <a href="#" class="main_header_link">購物商城</a>
         </div>
         <div class="main_header_link_wrap">
-            <a href="#" class="main_header_link">聯絡我們</a>
+            <a href="contact.php" class="main_header_link">聯絡我們</a>
         </div>
     </nav>
 </header>

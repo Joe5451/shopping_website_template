@@ -24,12 +24,13 @@
                         <a href="#" class="main_footer_nav_item_link">最新商品</a>
                         <a href="#" class="main_footer_nav_item_link">購物商城</a>
                         <a href="#" class="main_footer_nav_item_link">會員中心</a>
+                        <a href="contact.php" class="main_footer_nav_item_link">聯絡我們</a>
                     </div>
                 </div>
                 <div class="main_footer_nav_item">
                     <div class="main_footer_nav_item_title">資訊</div>
                     <div class="main_footer_nav_item_content">
-                        <a href="#" class="main_footer_nav_item_link">最新消息</a>
+                        <a href="news.php" class="main_footer_nav_item_link">最新消息</a>
                     </div>
                 </div>
             </nav>

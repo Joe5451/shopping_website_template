@@ -150,10 +150,11 @@
     text-overflow: ellipsis;
     overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
     word-break: break-all;
     margin-bottom: 10px;
+    font-size: 1.25rem;  
 }
 
 .news_list_footer {
@@ -184,6 +185,18 @@
 	animation: horizontal_move 0.7s infinite ease-in-out alternate;
 }
 
+@media (max-width: 1280px) {
+    .news_list_summary {
+        -webkit-line-clamp: 4;
+    }
+}
+
+@media (max-width: 992px) {
+    .news_list_summary {
+        -webkit-line-clamp: 3;
+        font-size: 1rem;
+    }
+}
 
 @media (max-width: 768px) {
     .news_list_content {
@@ -198,5 +211,97 @@
     .news_list_img_wrap {
         width: 100%;
         margin-bottom: 15px;
+    }
+}
+
+.contact_form {
+    max-width: 680px;
+    margin: 0 auto;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    padding: 40px 80px 20px;
+}
+
+.contact_form_group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.contact_form_label {
+    margin-right: 15px;
+    font-size: 1.25rem;
+    color: var(--dark-primary);
+    width: 80px;
+    text-align: right;
+    flex-shrink: 0;
+}
+
+.contact_form_control {
+    border: 1px solid #707070;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px 15px;
+    outline: none;
+    line-height: 1.5;
+}
+
+.contact_form_control:focus {
+    border-color: var(--cyan);
+}
+
+.contact_form_textarea {
+    border: 1px solid #707070;
+    border-radius: 5px;
+    resize: none;
+    padding: 5px 15px;
+    outline: none;
+    width: 100%;
+    line-height: 1.5;
+    height: 150px;
+}
+
+.contact_form_textarea:focus {
+    border-color: var(--cyan);
+}
+
+.contact_form_submit_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact_form_submit {
+    background: var(--cyan);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.25rem;
+    transition: all 0.4s ease-in-out;
+}
+
+#contact_form_submit:hover {
+    opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+    .contact_form {
+        padding: 40px 40px 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact_form {
+        padding: 40px 15px 20px;
+    }
+
+    .contact_form_group {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact_form_label {
+        width: auto;
     }
 }
