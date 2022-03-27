@@ -1,6 +1,7 @@
 <?php include('php/head.php'); ?>
 
 <div class="page_head_banner">
+    <img src="img/img2.png" alt="最新消息" class="page_head_banner_img">
     <div class="page_head_banner_content">
         <h1 class="page_head_banner_title">最新消息</h1>
         <h2 class="page_head_banner_subtitle">News</h2>
@@ -14,7 +15,7 @@
         <a href="#" class="page_breadcrumb_link active">最新消息</a>
     </nav>
 
-    <div class="news_category_nav">
+    <div class="news_category_nav custom_horizontal_scrollbar">
         <a href="#" class="news_category_link">全部</a>
         <a href="#" class="news_category_link">好康優惠</a>
         <a href="#" class="news_category_link">體驗分享</a>
