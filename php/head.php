@@ -16,7 +16,7 @@
 <body>
 
 <header id="main_header" class="shadow-md ">
-    <a href="#" class="main_header_logo">TEMPLATE</a>
+    <a href="welcome.php" class="main_header_logo">TEMPLATE</a>
 
     <nav class="main_header_navi">
         <div class="main_header_link_wrap">
@@ -26,7 +26,7 @@
             <a href="news.php" class="main_header_link">最新消息</a>
         </div>
         <div class="main_header_link_wrap">
-            <a href="#" class="main_header_link">購物商城</a>
+            <a href="productList.php" class="main_header_link">購物商城</a>
         </div>
         <div class="main_header_link_wrap">
             <a href="contact.php" class="main_header_link">聯絡我們</a>
