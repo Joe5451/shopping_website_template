@@ -20,16 +20,16 @@
 
     <nav class="main_header_navi">
         <div class="main_header_link_wrap">
-            <a href="" class="main_header_link">首頁</a>
+            <a href="welcome.php" class="main_header_link">首頁</a>
         </div>
         <div class="main_header_link_wrap">
-            <a href="" class="main_header_link">最新消息</a>
+            <a href="news.php" class="main_header_link">最新消息</a>
         </div>
         <div class="main_header_link_wrap">
-            <a href="" class="main_header_link">購物商城</a>
+            <a href="#" class="main_header_link">購物商城</a>
         </div>
         <div class="main_header_link_wrap">
-            <a href="" class="main_header_link">聯絡我們</a>
+            <a href="#" class="main_header_link">聯絡我們</a>
         </div>
     </nav>
 </header>
