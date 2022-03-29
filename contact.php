@@ -15,25 +15,27 @@
         <a href="contact.php" class="page_breadcrumb_link active">聯絡我們</a>
     </nav>
 
-    <form action="" class="contact_form">
-        <div class="contact_form_group">
-            <label class="contact_form_label">姓名</label>
-            <input type="text" class="contact_form_control" name="name" >
+    <form action="" class="form">
+        <h2 class="form_title">聯絡我們</h2>
+
+        <div class="form_group">
+            <label class="form_label">姓名</label>
+            <input type="text" class="form_control" name="name" >
         </div>
-        <div class="contact_form_group">
-            <label class="contact_form_label">Email</label>
-            <input type="text" class="contact_form_control" name="email" >
+        <div class="form_group">
+            <label class="form_label">Email</label>
+            <input type="text" class="form_control" name="email" >
         </div>
-        <div class="contact_form_group">
-            <label class="contact_form_label">連絡電話</label>
-            <input type="text" class="contact_form_control" name="phone" >
+        <div class="form_group">
+            <label class="form_label">連絡電話</label>
+            <input type="text" class="form_control" name="phone" >
         </div>
-        <div class="contact_form_group">
-            <label class="contact_form_label self-start">內容</label>
-            <textarea name="content" class="contact_form_textarea custom_scrollbar"></textarea>
+        <div class="form_group">
+            <label class="form_label self-start">內容</label>
+            <textarea name="content" class="form_textarea custom_scrollbar"></textarea>
         </div>
-        <div class="contact_form_submit_wrap">
-            <input type="submit" value="送出" id="contact_form_submit">
+        <div class="form_submit_wrap">
+            <input type="submit" value="送出" id="form_submit">
         </div>
     </form>
     

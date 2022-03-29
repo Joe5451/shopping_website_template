@@ -32,4 +32,14 @@
             <a href="contact.php" class="main_header_link">聯絡我們</a>
         </div>
     </nav>
+
+    <div class="main_header_btn_group">
+        <a href="member_login.php" class="main_header_btn">
+            <i class="fas fa-user"></i>
+        </a>
+        <a href="#" class="main_header_btn main_header_cart_btn">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart_amount">0</span>
+        </a>
+    </div>
 </header>
