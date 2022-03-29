@@ -446,7 +446,7 @@
     }
 }
 
-.member_regist_notify {
+.member_signup_notify {
     display: flex;
     align-items: center;
     padding-left: 55px;
@@ -454,19 +454,19 @@
     margin-bottom: 30px;
 }
 
-.member_regist_link {
+.member_signup_link {
     margin-left: 10px;
     color: #0c4a6e;
     transition: all 0.4s ease-in-out;
     font-weight: bold;
 }
 
-.member_regist_link:hover {
+.member_signup_link:hover {
     color: #0284c7;
 }
 
 @media (max-width: 576px) {
-    .member_regist_notify {
+    .member_signup_notify {
         padding-left: 0;
     }
 }

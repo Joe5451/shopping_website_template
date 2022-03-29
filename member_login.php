@@ -27,9 +27,9 @@
             <input type="password" class="form_control" name="password" >
         </div>
 
-        <div class="member_regist_notify">
+        <div class="member_signup_notify">
             還不是會員嗎?
-            <a href="#" class="member_regist_link">立即註冊</a>
+            <a href="member_signup.php" class="member_signup_link">立即註冊</a>
         </div>
 
         <div class="flex justify-center align-center my-8">
