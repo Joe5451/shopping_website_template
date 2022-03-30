@@ -63,54 +63,72 @@
         </div>
 
         <div class="product_list_container">
-            <a href="#" class="product_list">
+            <a href="product.php" class="product_list">
                 <div class="product_list_img_wrap">
                     <img src="img/img2.png" alt="產品" class="product_list_img">
+                    <div class="product_list_img_mask">
+                        <span>MORE</span>
+                    </div>
                 </div>
                 <div class="product_list_foot">
                     <div class="product_list_price">$300</div>
                     <div class="product_list_title">千年人參</div>
                 </div>
             </a>
-            <a href="#" class="product_list">
+            <a href="product.php" class="product_list">
                 <div class="product_list_img_wrap">
                     <img src="img/img2.png" alt="產品" class="product_list_img">
+                    <div class="product_list_img_mask">
+                        <span>MORE</span>
+                    </div>
                 </div>
                 <div class="product_list_foot">
                     <div class="product_list_price">$300</div>
                     <div class="product_list_title">千年人參</div>
                 </div>
             </a>
-            <a href="#" class="product_list">
+            <a href="product.php" class="product_list">
                 <div class="product_list_img_wrap">
                     <img src="img/img2.png" alt="產品" class="product_list_img">
+                    <div class="product_list_img_mask">
+                        <span>MORE</span>
+                    </div>
                 </div>
                 <div class="product_list_foot">
                     <div class="product_list_price">$300</div>
                     <div class="product_list_title">千年人參</div>
                 </div>
             </a>
-            <a href="#" class="product_list">
+            <a href="product.php" class="product_list">
                 <div class="product_list_img_wrap">
                     <img src="img/img2.png" alt="產品" class="product_list_img">
+                    <div class="product_list_img_mask">
+                        <span>MORE</span>
+                    </div>
                 </div>
                 <div class="product_list_foot">
                     <div class="product_list_price">$300</div>
                     <div class="product_list_title">千年人參</div>
                 </div>
             </a>
-            <a href="#" class="product_list">
+            <a href="product.php" class="product_list">
                 <div class="product_list_img_wrap">
                     <img src="img/img2.png" alt="產品" class="product_list_img">
+                    <div class="product_list_img_mask">
+                        <span>MORE</span>
+                    </div>
                 </div>
                 <div class="product_list_foot">
                     <div class="product_list_price">$300</div>
                     <div class="product_list_title">千年人參</div>
                 </div>
             </a>
-            <a href="#" class="product_list">
+            <a href="product.php" class="product_list">
                 <div class="product_list_img_wrap">
                     <img src="img/img2.png" alt="產品" class="product_list_img">
+                    <div class="product_list_img_mask">
+                        <span>MORE</span>
+                    </div>
                 </div>
                 <div class="product_list_foot">
                     <div class="product_list_price">$300</div>

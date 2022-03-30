@@ -15,16 +15,49 @@
         <a href="member_signup.php" class="page_breadcrumb_link active">會員註冊</a>
     </nav>
 
-    <form action="" class="form">
+    <form action="" method="post" class="form">
         <h2 class="form_title">會員註冊</h2>
 
         <div class="form_group">
-            <label class="form_label form_label_sm">帳號</label>
+            <label class="form_label">帳號</label>
             <input type="text" class="form_control" name="email" >
+            <div class="form_control_notify">請輸入您的 Email</div>
         </div>
+
         <div class="form_group">
-            <label class="form_label form_label_sm">密碼</label>
+            <label class="form_label">姓名</label>
+            <input type="password" class="form_control" name="name" >
+        </div>
+
+        <div class="form_group">
+            <label class="form_label">縣市</label>
+            <select name="city" class="form_select">
+                <option value="">請選擇縣市</option>
+            </select>
+        </div>
+
+        <div class="form_group">
+            <label class="form_label">區域</label>
+            <select name="town" class="form_select">
+                <option value="">請選擇鄉鎮市區</option>
+            </select>
+        </div>
+
+        <div class="form_group">
+            <label class="form_label">地址</label>
+            <input type="text" class="form_control" name="address" >
+        </div>
+
+        <div class="form_group">
+            <label class="form_label">密碼</label>
             <input type="password" class="form_control" name="password" >
+            <div class="form_control_notify">密碼須為8-25碼英文或數字</div>
+        </div>
+
+        <div class="form_group">
+            <label class="form_label">確認密碼</label>
+            <input type="password" class="form_control" name="password" >
+            <div class="form_control_notify">請再次輸入密碼</div>
         </div>
 
         <div class="form_submit_wrap">

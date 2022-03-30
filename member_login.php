@@ -15,7 +15,7 @@
         <a href="member_login.php" class="page_breadcrumb_link active">會員登入</a>
     </nav>
 
-    <form action="" class="form form_sm">
+    <form action="" method="post" class="form form_sm">
         <h2 class="form_title">會員登入</h2>
 
         <div class="form_group">
