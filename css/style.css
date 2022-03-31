@@ -2,6 +2,16 @@
 @import 'page.css';
 @import 'animation.css';
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 .custom_horizontal_scrollbar::-webkit-scrollbar {
     height: 5px;
 }
