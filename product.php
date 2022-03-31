@@ -156,8 +156,6 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ex officiis itaque nostrum voluptates molestiae maxime consequatur laboriosam, doloribus minus, expedita repellat! Esse cupiditate suscipit illo possimus totam consectetur quo voluptas repellendus ea illum. Dicta mollitia quis, minus cupiditate illum adipisci explicabo doloribus dolorum. Facilis eos illo ea laboriosam quaerat!
         </div>
     </div>
-    
-
 </section>
 
 <?php include('php/foot.php'); ?>

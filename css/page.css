@@ -618,7 +618,7 @@
 }
 
 .product_specification_title {
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: var(--dark-primary);
     margin-bottom: 15px;
 }
@@ -653,7 +653,7 @@
 }
 
 .product_amount_title {
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: var(--dark-primary);
 }
 
