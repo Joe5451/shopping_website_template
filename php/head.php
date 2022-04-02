@@ -37,9 +37,13 @@
         <a href="member_login.php" class="main_header_btn">
             <i class="fas fa-user"></i>
         </a>
-        <a href="#" class="main_header_btn main_header_cart_btn">
+        <a href="cart.php" class="main_header_btn main_header_cart_btn">
             <i class="fas fa-shopping-cart"></i>
             <span class="cart_amount">0</span>
         </a>
+
+        <div class="cart_container">
+            
+        </div>
     </div>
 </header>
