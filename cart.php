@@ -25,7 +25,7 @@
                 <div class="cart_head_item cart_head_btn border-r-0"></div>
             </div>
 
-            <div class="cart_head_mobile">購物車</div>
+            <div class="cart_section_head cart_head_mobile">購物車</div>
             
             <div class="cart_body">
                 <div class="cart_list">
@@ -99,8 +99,92 @@
                         <i class="fas fa-times"></i>
                     </button>
                 </div>
-
             </div>
+
+            <div class="cart_bottom">
+                <div class="cart_bottom_item">
+                    <div class="cart_bottom_item_title">商品金額小記</div>
+                    <div class="cart_bottom_item_content">$1,500</div>
+                </div>
+                <div class="cart_bottom_item">
+                    <div class="cart_bottom_item_title">運費</div>
+                    <div class="cart_bottom_item_content">$150</div>
+                </div>
+                <div class="cart_bottom_item">
+                    <div class="cart_bottom_item_title">總金額</div>
+                    <div class="cart_bottom_item_content">$1,650</div>
+                </div>
+            </div>
+
+            <div class="cart_section_head">訂單資料</div>
+            <div class="cart_order_form_block">
+                <div class="cart_order_form_inner_container">
+                    <div class="cart_order_form_title">訂購人</div>
+
+                    <div class="form_group">
+                        <label class="form_label">姓名</label>
+                        <input type="text" class="form_control" name="name" >
+                    </div>
+    
+                    <div class="form_group">
+                        <label class="form_label">連絡電話</label>
+                        <input type="text" class="form_control" name="phone" >
+                    </div>
+    
+                    <div class="form_group">
+                        <label class="form_label">聯絡地址</label>
+                        <input type="text" class="form_control" name="address" >
+                    </div>
+    
+                    <div class="form_group mb-14">
+                        <label class="form_label">Email</label>
+                        <input type="email" class="form_control" name="email" >
+                    </div>
+                </div>
+
+
+                <div class="cart_order_form_inner_container">
+                    <div class="cart_order_form_title">收件人</div>
+                    
+                    <div class="form_group">
+                        <label class="form_check_label">
+                            <input type="checkbox" class="form_check" value="true" >
+                            <div class="form_check_content">同訂購人資料</div>
+                        </label>
+                    </div>
+                    
+                    <div class="form_group">
+                        <label class="form_label">姓名</label>
+                        <input type="text" class="form_control" name="receiver_name" >
+                    </div>
+    
+                    <div class="form_group">
+                        <label class="form_label">連絡電話</label>
+                        <input type="text" class="form_control" name="receiver_phone" >
+                    </div>
+    
+                    <div class="form_group">
+                        <label class="form_label">聯絡地址</label>
+                        <input type="text" class="form_control" name="receiver_address" >
+                    </div>
+    
+                    <div class="form_group">
+                        <label class="form_label">Email</label>
+                        <input type="email" class="form_control" name="receiver_email" >
+                    </div>
+
+                    <div class="form_group">
+                        <label class="form_label self-start">備註</label>
+                        <textarea name="order_remark" class="form_textarea custom_scrollbar"></textarea>
+                    </div>
+                </div>
+                
+                <div class="form_submit_wrap">
+                    <input type="submit" value="結帳" id="checkout_btn">
+                </div>
+                
+            </div>
+            
         </div>
     </div>
 
