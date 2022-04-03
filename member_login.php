@@ -20,11 +20,19 @@
 
         <div class="form_group">
             <label class="form_label form_label_sm">帳號</label>
-            <input type="text" class="form_control" name="email" >
+            <div class="form_control_wrap">
+                <input type="text" class="form_control" name="email" >
+                <span class="form_control_border_top_left"></span>
+                <span class="form_control_border_bottom_right"></span>
+            </div>
         </div>
         <div class="form_group">
             <label class="form_label form_label_sm">密碼</label>
-            <input type="password" class="form_control" name="password" >
+            <div class="form_control_wrap">
+                <input type="password" class="form_control" name="password" >
+                <span class="form_control_border_top_left"></span>
+                <span class="form_control_border_bottom_right"></span>
+            </div>
         </div>
 
         <div class="member_signup_notify">

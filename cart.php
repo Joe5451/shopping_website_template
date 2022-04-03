@@ -123,22 +123,38 @@
 
                     <div class="form_group">
                         <label class="form_label">姓名</label>
-                        <input type="text" class="form_control" name="name" >
+                        <div class="form_control_wrap">
+                            <input type="password" class="form_control" name="name" >
+                            <span class="form_control_border_top_left"></span>
+                            <span class="form_control_border_bottom_right"></span>
+                        </div>
                     </div>
     
                     <div class="form_group">
-                        <label class="form_label">連絡電話</label>
-                        <input type="text" class="form_control" name="phone" >
+                        <label class="form_label">聯絡電話</label>
+                        <div class="form_control_wrap">
+                            <input type="text" class="form_control" name="phone" >
+                            <span class="form_control_border_top_left"></span>
+                            <span class="form_control_border_bottom_right"></span>
+                        </div>
                     </div>
     
                     <div class="form_group">
                         <label class="form_label">聯絡地址</label>
-                        <input type="text" class="form_control" name="address" >
+                        <div class="form_control_wrap">
+                            <input type="text" class="form_control" name="address" >
+                            <span class="form_control_border_top_left"></span>
+                            <span class="form_control_border_bottom_right"></span>
+                        </div>
                     </div>
     
                     <div class="form_group mb-14">
                         <label class="form_label">Email</label>
-                        <input type="email" class="form_control" name="email" >
+                        <div class="form_control_wrap">
+                            <input type="email" class="form_control" name="email" >
+                            <span class="form_control_border_top_left"></span>
+                            <span class="form_control_border_bottom_right"></span>
+                        </div>
                     </div>
                 </div>
 
@@ -155,27 +171,47 @@
                     
                     <div class="form_group">
                         <label class="form_label">姓名</label>
-                        <input type="text" class="form_control" name="receiver_name" >
+                        <div class="form_control_wrap">
+                            <input type="text" class="form_control" name="receiver_name" >
+                            <span class="form_control_border_top_left"></span>
+                            <span class="form_control_border_bottom_right"></span>
+                        </div>
                     </div>
     
                     <div class="form_group">
-                        <label class="form_label">連絡電話</label>
-                        <input type="text" class="form_control" name="receiver_phone" >
+                        <label class="form_label">聯絡電話</label>
+                        <div class="form_control_wrap">
+                            <input type="text" class="form_control" name="receiver_phone" >
+                            <span class="form_control_border_top_left"></span>
+                            <span class="form_control_border_bottom_right"></span>
+                        </div>
                     </div>
     
                     <div class="form_group">
                         <label class="form_label">聯絡地址</label>
-                        <input type="text" class="form_control" name="receiver_address" >
+                        <div class="form_control_wrap">
+                            <input type="text" class="form_control" name="receiver_address" >
+                            <span class="form_control_border_top_left"></span>
+                            <span class="form_control_border_bottom_right"></span>
+                        </div>
                     </div>
     
                     <div class="form_group">
                         <label class="form_label">Email</label>
-                        <input type="email" class="form_control" name="receiver_email" >
+                        <div class="form_control_wrap">
+                            <input type="email" class="form_control" name="receiver_email" >
+                            <span class="form_control_border_top_left"></span>
+                            <span class="form_control_border_bottom_right"></span>
+                        </div>
                     </div>
 
                     <div class="form_group">
                         <label class="form_label self-start">備註</label>
-                        <textarea name="order_remark" class="form_textarea custom_scrollbar"></textarea>
+                        <div class="form_control_wrap">
+                            <textarea name="order_remark" class="form_textarea custom_scrollbar"></textarea>
+                            <span class="form_control_border_top_left"></span>
+                            <span class="form_control_border_bottom_right"></span>
+                        </div>
                     </div>
                 </div>
                 
