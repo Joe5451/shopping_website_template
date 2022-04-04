@@ -26,6 +26,14 @@
         </div>
 
         <div class="form_group">
+            <label class="form_label">顯示/隱藏</label>
+            <select name="display" class="form_select">
+                <option value="true" selected>顯示</option>
+                <option value="false">隱藏</option>
+            </select>
+        </div>
+
+        <div class="form_group">
             <label class="form_label">日期</label>
             <input type="text" name="date" class="form_control" value="2022/01/05">
         </div>
