@@ -24,7 +24,7 @@
             <div class="admin_sidebar_dropdown_title">最新消息 <i class="fas fa-angle-down"></i></div>
             <div class="admin_sidebar_dropdown_content">
                 <a href="news_list.php" class="admin_sidebar_dropdown_link">最新消息列表</a>
-                <a href="#" class="admin_sidebar_dropdown_link">最新消息類別</a>
+                <a href="news_category.php" class="admin_sidebar_dropdown_link">最新消息類別</a>
             </div>
         </div>
 

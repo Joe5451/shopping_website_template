@@ -1,5 +1,6 @@
 .custom_table {
     min-width: 650px;
+    margin-bottom: 40px;
 }
 
 .custom_table th,
@@ -59,5 +60,14 @@
 
 .form_btn_primary:hover {
     background: #06b6d4;
+}
 
+.form_control_secondary {
+    padding: 5px 15px;
+    width: 100%;
+    border: 1px solid rgb(148, 163, 184);
+}
+
+.form_control_secondary:focus {
+    border-color: var(--cyan);
 }

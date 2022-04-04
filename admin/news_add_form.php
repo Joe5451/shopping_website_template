@@ -2,7 +2,7 @@
 
 <nav class="admin_nav">
     <a href="news_list.php" class="admin_nav_link active">最新消息列表</a>
-    <a href="#" class="admin_nav_link">最新消息類別</a>
+    <a href="news_category_list.php" class="admin_nav_link">最新消息類別</a>
 </nav>
 
 <div class="container mx-auto px-4">
@@ -32,12 +32,12 @@
 
         <div class="form_group">
             <label class="form_label">摘要</label>
-            <textarea name="summary" class="form_textarea"></textarea>
+            <textarea name="summary" class="form_textarea custom_scrollbar"></textarea>
         </div>
 
         <div class="form_group">
             <label class="form_label">內容</label>
-            <textarea name="content" class="form_textarea"></textarea>
+            <textarea name="content" class="form_textarea custom_scrollbar"></textarea>
         </div>
 
         <div class="flex">
