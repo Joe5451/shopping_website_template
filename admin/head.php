@@ -24,7 +24,7 @@
             <div class="admin_sidebar_dropdown_title">最新消息 <i class="fas fa-angle-down"></i></div>
             <div class="admin_sidebar_dropdown_content">
                 <a href="news_list.php" class="admin_sidebar_dropdown_link">最新消息列表</a>
-                <a href="news_category.php" class="admin_sidebar_dropdown_link">最新消息類別</a>
+                <a href="news_category_list.php" class="admin_sidebar_dropdown_link">最新消息類別</a>
             </div>
         </div>
 
@@ -38,6 +38,10 @@
 
         <div class="admin_sidebar_link_wrap">
             <a href="#" class="admin_sidebar_link">訂單管理</a>
+        </div>
+
+        <div class="admin_sidebar_link_wrap">
+            <a href="member_list.php" class="admin_sidebar_link">會員管理</a>
         </div>
         
         <div class="admin_sidebar_link_wrap">

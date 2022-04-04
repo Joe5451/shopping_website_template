@@ -5,7 +5,7 @@
     <a href="news_category_list.php" class="admin_nav_link">最新消息類別</a>
 </nav>
 
-<div class="container mx-auto px-4">
+<div class="container mx-auto px-4 pb-8">
     <nav class="admin_sub_nav custom_horizontal_scrollbar">
         <a href="news_list.php" class="admin_sub_nav_link active">列表</a>
         <a href="news_add_form.php" class="admin_sub_nav_link">新增</a>
