@@ -29,7 +29,7 @@
         <div class="form_group">
             <label class="form_label">Email</label>
             <div class="form_control_wrap">
-                <input type="text" class="form_control" name="email" >
+                <input type="email" class="form_control" name="email" >
                 <span class="form_control_border_top_left"></span>
                 <span class="form_control_border_bottom_right"></span>
             </div>

@@ -31,7 +31,7 @@
         <div class="form_group">
             <label class="form_label">姓名</label>
             <div class="form_control_wrap">
-                <input type="password" class="form_control" name="name" >
+                <input type="text" class="form_control" name="name" >
                 <span class="form_control_border_top_left"></span>
                 <span class="form_control_border_bottom_right"></span>
             </div>
@@ -81,7 +81,7 @@
         <div class="form_group">
             <label class="form_label">確認密碼</label>
             <div class="form_control_wrap">
-                <input type="password" class="form_control" name="password" >
+                <input type="password" class="form_control" >
                 <span class="form_control_border_top_left"></span>
                 <span class="form_control_border_bottom_right"></span>
             </div>
