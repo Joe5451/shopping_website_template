@@ -77,6 +77,7 @@
     padding: 10px 15px 0;
     display: flex;
     align-items: flex-end;
+    margin-bottom: 15px;
 }
 
 .admin_nav_link {
@@ -98,16 +99,18 @@
 .admin_sub_nav {
     display: flex;
     align-items: center;
-    padding: 10px 15px;
-    /* margin-bottom: 30px; */
+    padding: 5px 0;
+    overflow-x: auto;
+    margin-bottom: 15px;
 }
 
 .admin_sub_nav_link {
     color: var(--dark-secondary);
-    background: #fafafa;
+    background: #f4f4f5;
     margin: 0 10px;
     padding: 5px 15px;
     transition: all 0.4s ease-in-out;
+    flex-shrink: 0;
 }
 
 .admin_sub_nav_link:hover,

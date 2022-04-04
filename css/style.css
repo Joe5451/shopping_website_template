@@ -2,7 +2,7 @@
 @import 'page.css';
 @import 'animation.css';
 
-button, input, div {
+button, input, select, textarea, div {
   outline: none;
 }
 

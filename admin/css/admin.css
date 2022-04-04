@@ -1,7 +1,7 @@
 @import 'layout.css';
 @import 'page.css';
 
-button, input, div {
+button, input, select, textarea, div {
   outline: none;
 }
 
