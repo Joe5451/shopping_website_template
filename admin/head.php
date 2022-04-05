@@ -31,8 +31,8 @@
         <div class="admin_sidebar_dropdown">
             <div class="admin_sidebar_dropdown_title">商品管理 <i class="fas fa-angle-down"></i></div>
             <div class="admin_sidebar_dropdown_content">
-                <a href="#" class="admin_sidebar_dropdown_link">商品列表</a>
-                <a href="#" class="admin_sidebar_dropdown_link">商品類別</a>
+                <a href="product_list.php" class="admin_sidebar_dropdown_link">商品列表</a>
+                <a href="product_category_list.php" class="admin_sidebar_dropdown_link">商品類別</a>
             </div>
         </div>
 
