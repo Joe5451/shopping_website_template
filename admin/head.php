@@ -12,7 +12,41 @@
 </head>
 <body>
 
+<div id="admin_header_mobile">
+    <a href="#" class="admin_header_logo_mobile">TEMPLATE</a>
+    <button id="admin_sidebar_open_btn_mobile">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <script>
+        $('#admin_sidebar_open_btn_mobile').click(function() {
+            $('#admin_sidebar').css('transform', 'translateX(0%)');
+            $('#admin_sidebar_bg_mobile').stop().fadeIn();
+        });
+    </script>
+</div>
+
+<div id="admin_header_space"></div>
+
+<div id="admin_sidebar_bg_mobile"></div>
+
 <div id="admin_sidebar">
+    <button id="admin_sidebar_close_btn_mobile">
+        <i class="fas fa-times"></i>
+    </button>
+
+    <script>
+        $('#admin_sidebar_close_btn_mobile').click(function() {
+            $('#admin_sidebar').css('transform', 'translateX(-100%)');
+            $('#admin_sidebar_bg_mobile').stop().fadeOut();
+        });
+
+        $('#admin_sidebar_bg_mobile').click(function() {
+            $('#admin_sidebar').css('transform', 'translateX(-100%)');
+            $('#admin_sidebar_bg_mobile').stop().fadeOut();
+        });
+    </script>
+    
     <a href="#" class="admin_sidebar_logo">TEMPLATE</a>
 
     <nav class="admin_sidebar_navi">
@@ -37,7 +71,7 @@
         </div>
 
         <div class="admin_sidebar_link_wrap">
-            <a href="#" class="admin_sidebar_link">訂單管理</a>
+            <a href="order_list.php" class="admin_sidebar_link">訂單管理</a>
         </div>
 
         <div class="admin_sidebar_link_wrap">
