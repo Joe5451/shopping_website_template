@@ -44,6 +44,69 @@
         </div>
 
         <div class="form_group">
+            <div class="flex items-start">
+                <label class="form_label">商品規格</label>
+                <button type="button" class="admin_plus_btn ml-2" id="product_specification_add_btn">
+                    <i class="fas fa-plus-circle"></i>
+                </button>
+            </div>
+
+            <div id="product_specification_container">
+                <div class="specification_wrap flex flex-wrap border-b border-slate-300 mb-3">
+                    <div class="my-2 flex items-center">
+                        <label class="shrink-0 text-slate-500">名稱：</label>
+                        <input type="text" value="十年" class="w-36 border border-slate-400 py-1 px-2 focus:border-cyan-400 mr-4">
+                    </div>
+                    <div class="my-2 flex items-center">
+                        <label class="shrink-0 text-slate-500">順序：</label>
+                        <input type="number" value="0" class="w-16 border border-slate-400 py-1 px-2 focus:border-cyan-400 mr-4">
+                        <button type="button" class="admin_minus_btn" onclick="deleteSpecification(this);">
+                            <i class="fas fa-minus-circle"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="specification_wrap flex flex-wrap border-b border-slate-300 mb-3">
+                    <div class="my-2 flex items-center">
+                        <label class="shrink-0 text-slate-500">名稱：</label>
+                        <input type="text" value="五十年" class="w-36 border border-slate-400 py-1 px-2 focus:border-cyan-400 mr-4">
+                    </div>
+                    <div class="my-2 flex items-center">
+                        <label class="shrink-0 text-slate-500">順序：</label>
+                        <input type="number" value="0" class="w-16 border border-slate-400 py-1 px-2 focus:border-cyan-400 mr-4">
+                        <button type="button" class="admin_minus_btn" onclick="deleteSpecification(this);">
+                            <i class="fas fa-minus-circle"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                $('#product_specification_add_btn').click(function() {
+                    $('#product_specification_container').append(`
+                        <div class="specification_wrap flex flex-wrap border-b border-slate-300 mb-3">
+                            <div class="my-2 flex items-center">
+                                <label class="shrink-0 text-slate-500">名稱：</label>
+                                <input type="text" class="w-36 border border-slate-400 py-1 px-2 focus:border-cyan-400 mr-4">
+                            </div>
+                            <div class="my-2 flex items-center">
+                                <label class="shrink-0 text-slate-500">順序：</label>
+                                <input type="number" value="0" class="w-16 border border-slate-400 py-1 px-2 focus:border-cyan-400 mr-4">
+                                <button type="button" class="admin_minus_btn" onclick="deleteSpecification(this);">
+                                    <i class="fas fa-minus-circle"></i>
+                                </button>
+                            </div>
+                        </div>
+                    `);
+                });
+
+                function deleteSpecification(current_element) {
+                    var element = $(current_element);
+                    element.parents('.specification_wrap').remove();
+                }
+            </script>
+        </div>
+
+        <div class="form_group">
             <label class="form_label">商品摘要</label>
             <textarea name="summary" class="form_textarea custom_scrollbar">強身健體，長命百歲，精力旺盛</textarea>
         </div>

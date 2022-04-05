@@ -71,3 +71,15 @@
 .form_control_secondary:focus {
     border-color: var(--cyan);
 }
+
+.admin_plus_btn,
+.admin_minus_btn {
+    color: var(--cyan-900);
+    transition: all 0.4s ease-in-out;
+    font-size: 1.125rem;
+}
+
+.admin_plus_btn:hover,
+.admin_minus_btn:hover {
+    color: var(--cyan);
+}
