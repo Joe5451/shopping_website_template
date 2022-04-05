@@ -19,6 +19,18 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+.multiple_line_ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
+
+.two_line_ellipsis {
+  -webkit-line-clamp: 2;
+}
+
 .custom_horizontal_scrollbar::-webkit-scrollbar {
     height: 5px;
 }

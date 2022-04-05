@@ -19,6 +19,14 @@
         </div>
 
         <div class="form_group">
+            <label class="form_label">顯示/隱藏</label>
+            <select name="display" class="form_select">
+                <option value="true">顯示</option>
+                <option value="false">隱藏</option>
+            </select>
+        </div>
+
+        <div class="form_group">
             <label class="form_label">順序</label>
             <input type="number" name="sequence" class="form_control" value="0">
         </div>

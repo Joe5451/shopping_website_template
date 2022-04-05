@@ -45,7 +45,11 @@
         </div>
         
         <div class="admin_sidebar_link_wrap">
-            <a href="#" class="admin_sidebar_link">聯絡我們</a>
+            <a href="contact_list.php" class="admin_sidebar_link">聯絡我們</a>
+        </div>
+
+        <div class="admin_sidebar_link_wrap">
+            <a href="#" class="admin_sidebar_link">登出</a>
         </div>
     </nav>
 
