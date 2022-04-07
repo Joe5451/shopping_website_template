@@ -48,7 +48,7 @@
         </div>
         
         <div class="form_submit_wrap">
-            <input type="submit" value="登入" id="form_submit">
+            <input type="button" value="登入" onclick="window.location.href = 'member_update_form.php';" id="form_submit">
         </div>
     </form>
 

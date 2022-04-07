@@ -24,7 +24,7 @@
                 會員中心
             </button>
             <div class="member_sidebar_content w-full md:w-72 max-w-full">
-                <a href="member_update_form.php" class="member_sidebar_link">會員資料</a>
+                <a href="member_update_form.php" class="member_sidebar_link active">會員資料</a>
                 <a href="#" class="member_sidebar_link">訂單記錄</a>
             </div>
 
@@ -35,7 +35,7 @@
                 });
             </script>
         </div>
-        <div class="w-full md:w-3/4 px-4">
+        <div class="w-full md:w-3/4 px-0 md:px-4">
             <form action="" method="post" class="form">
                 <h2 class="form_title">會員資料</h2>
         
