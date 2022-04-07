@@ -12,11 +12,15 @@
     <nav class="page_breadcrumb">
         <a href="welcome.php" class="page_breadcrumb_link">首頁</a>
         <span class="page_breadcrumb_separator">〉</span>
-        <a href="productList.php" class="page_breadcrumb_link active">購物商城</a>
+        <a href="product_list.php" class="page_breadcrumb_link active">購物商城</a>
     </nav>
 
     <div class="product_container">
         <div class="product_sidebar">
+            <button class="product_sidebar_toggle_btn_mobile">
+                <i class="fas fa-caret-down"></i>
+                商品分類
+            </button>
             <div class="product_category_container">
                 <div class="product_category">
                     <a href="#" class="product_category_title">
@@ -58,6 +62,13 @@
                     e.preventDefault();
                     $(this).toggleClass('fa-plus fa-minus');
                     $(this).parent('.product_category_title').next('.product_category_content').stop().slideToggle();
+                });
+
+                $('.product_sidebar_toggle_btn_mobile').click(function() {
+                    $(this).find('i').toggleClass('fa-rotate-180');
+                    $('.product_category_container').stop().slideToggle(function() {
+                        $(this).css('height', 'auto');
+                    });
                 });
             </script>
         </div>

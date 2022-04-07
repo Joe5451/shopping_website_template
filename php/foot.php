@@ -22,7 +22,7 @@
                     <div class="main_footer_nav_item_title">快速連結</div>
                     <div class="main_footer_nav_item_content">
                         <a href="#" class="main_footer_nav_item_link">最新商品</a>
-                        <a href="productList.php" class="main_footer_nav_item_link">購物商城</a>
+                        <a href="product_list.php" class="main_footer_nav_item_link">購物商城</a>
                         <a href="#" class="main_footer_nav_item_link">會員中心</a>
                         <a href="contact.php" class="main_footer_nav_item_link">聯絡我們</a>
                     </div>

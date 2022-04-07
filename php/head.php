@@ -26,7 +26,7 @@
             <a href="news.php" class="main_header_link">最新消息</a>
         </div>
         <div class="main_header_link_wrap">
-            <a href="productList.php" class="main_header_link">購物商城</a>
+            <a href="product_list.php" class="main_header_link">購物商城</a>
         </div>
         <div class="main_header_link_wrap">
             <a href="contact.php" class="main_header_link">聯絡我們</a>

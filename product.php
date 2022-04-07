@@ -12,7 +12,7 @@
     <nav class="page_breadcrumb">
         <a href="welcome.php" class="page_breadcrumb_link">首頁</a>
         <span class="page_breadcrumb_separator">〉</span>
-        <a href="productList.php" class="page_breadcrumb_link">購物商城</a>
+        <a href="product_list.php" class="page_breadcrumb_link">購物商城</a>
         <span class="page_breadcrumb_separator">〉</span>
         <a href="product.php" class="page_breadcrumb_link active">千年人參</a>
     </nav>

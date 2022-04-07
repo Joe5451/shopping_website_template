@@ -116,6 +116,11 @@
     padding: 10px 30px;
 }
 
+.admin_sidebar_nav {
+    overflow-y: auto;
+    max-height: calc(100vh - 130px);
+}
+
 .admin_sidebar_link,
 .admin_sidebar_dropdown_title {
     display: block;

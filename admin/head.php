@@ -49,7 +49,7 @@
     
     <a href="#" class="admin_sidebar_logo">TEMPLATE</a>
 
-    <nav class="admin_sidebar_navi">
+    <nav class="admin_sidebar_nav custom_scrollbar">
         <div class="admin_sidebar_link_wrap">
             <a href="#" class="admin_sidebar_link">首頁</a>
         </div>
