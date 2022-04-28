@@ -15,7 +15,7 @@
 </head>
 <body>
 
-<header id="main_header" class="shadow-md ">
+<header id="main_header" class="shadow-md">
     <a href="welcome.php" class="main_header_logo">TEMPLATE</a>
 
     <nav class="main_header_navi">
@@ -41,9 +41,44 @@
             <i class="fas fa-shopping-cart"></i>
             <span class="cart_amount">0</span>
         </a>
-
-        <div class="cart_container">
-            
-        </div>
     </div>
+
+    <div class="ham_btn" onclick="toggleMenu();">
+        <div class="ham_bar" id="ham_bar1"></div>
+        <div class="ham_bar" id="ham_bar2"></div>
+        <div class="ham_bar" id="ham_bar3"></div>
+    </div>
+
+    <nav class="main_header_nav_mobile">
+        <div class="main_header_link_wrap_mobile">
+            <a href="welcome.php" class="main_header_link_mobile">首頁</a>
+        </div>
+        <div class="main_header_link_wrap_mobile">
+            <a href="news.php" class="main_header_link_mobile">最新消息</a>
+        </div>
+        <div class="main_header_link_wrap_mobile">
+            <a href="product_list.php" class="main_header_link_mobile">購物商城</a>
+        </div>
+        <div class="main_header_link_wrap_mobile">
+            <a href="contact.php" class="main_header_link_mobile">聯絡我們</a>
+        </div>
+    </nav>
 </header>
+
+<div class="header_mask_mobile" onclick="closeMenu();"></div>
+
+<div class="header_spacing"></div>
+
+<script>
+    function toggleMenu() {
+        $('.ham_btn').toggleClass('active');
+        $('.main_header_nav_mobile').stop().slideToggle();
+        $('.header_mask_mobile').stop().fadeToggle();
+    }
+
+    function closeMenu() {
+        $('.ham_btn').removeClass('active');
+        $('.main_header_nav_mobile').stop().slideUp();
+        $('.header_mask_mobile').stop().fadeOut();
+    }
+</script>
