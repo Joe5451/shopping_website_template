@@ -219,144 +219,30 @@
     </script>
 </section>
 
-<section class="index_news_section">
-    <div class="custom_container">
-        <div class="index_news_section_title_wrap">
-            <div class="index_news_section_title">
-                <div class="index_news_section_title_en">News</div>
-                <div class="index_news_section_title_ch">最新消息</div>
-            </div>
-        </div>
-    
-        <div class="index_news_slider_block">
-            <div class="index_news_slider_container">
-                <div class="index_news_slider">
-                    <a href="#" class="index_news_slider_link">
-                        <div class="index_news_slider_img_wrap">
-                            <img src="img/img2.png" class="index_news_slider_img">
-                            <div class="index_news_slider_more_mask">MORE</div>
-                        </div>
-                        <div class="index_news_slider_content">
-                            <div class="index_news_slider_date">2022/05/01</div>
-                            <div class="index_news_slider_title">最新消息標題最新消息標題</div>
-                            <div class="index_news_slider_summary">最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="index_news_slider">
-                    <a href="#" class="index_news_slider_link">
-                        <div class="index_news_slider_img_wrap">
-                            <img src="img/img2.png" class="index_news_slider_img">
-                            <div class="index_news_slider_more_mask">MORE</div>
-                        </div>
-                        <div class="index_news_slider_content">
-                            <div class="index_news_slider_date">2022/05/01</div>
-                            <div class="index_news_slider_title">最新消息標題</div>
-                            <div class="index_news_slider_summary">最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="index_news_slider">
-                    <a href="#" class="index_news_slider_link">
-                        <div class="index_news_slider_img_wrap">
-                            <img src="img/img2.png" class="index_news_slider_img">
-                            <div class="index_news_slider_more_mask">MORE</div>
-                        </div>
-                        <div class="index_news_slider_content">
-                            <div class="index_news_slider_date">2022/05/01</div>
-                            <div class="index_news_slider_title">最新消息標題</div>
-                            <div class="index_news_slider_summary">最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="index_news_slider">
-                    <a href="#" class="index_news_slider_link">
-                        <div class="index_news_slider_img_wrap">
-                            <img src="img/img2.png" class="index_news_slider_img">
-                            <div class="index_news_slider_more_mask">MORE</div>
-                        </div>
-                        <div class="index_news_slider_content">
-                            <div class="index_news_slider_date">2022/05/01</div>
-                            <div class="index_news_slider_title">最新消息標題</div>
-                            <div class="index_news_slider_summary">最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="index_news_slider">
-                    <a href="#" class="index_news_slider_link">
-                        <div class="index_news_slider_img_wrap">
-                            <img src="img/img2.png" class="index_news_slider_img">
-                            <div class="index_news_slider_more_mask">MORE</div>
-                        </div>
-                        <div class="index_news_slider_content">
-                            <div class="index_news_slider_date">2022/05/01</div>
-                            <div class="index_news_slider_title">最新消息標題</div>
-                            <div class="index_news_slider_summary">最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="index_news_slider">
-                    <a href="#" class="index_news_slider_link">
-                        <div class="index_news_slider_img_wrap">
-                            <img src="img/img2.png" class="index_news_slider_img">
-                            <div class="index_news_slider_more_mask">MORE</div>
-                        </div>
-                        <div class="index_news_slider_content">
-                            <div class="index_news_slider_date">2022/05/01</div>
-                            <div class="index_news_slider_title">最新消息標題</div>
-                            <div class="index_news_slider_summary">最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要最新消息摘要</div>
-                        </div>
-                    </a>
-                </div>
-                
-            </div>
-    
-            <span class="index_news_slider_arrow" id="index_news_slider_arrow_prev">
-                <i class="fas fa-angle-left"></i>
-            </span>
-            <span class="index_news_slider_arrow" id="index_news_slider_arrow_next">
-                <i class="fas fa-angle-right"></i>
-            </span>
-        </div>
-    </div>
+<section class="home_section">
+    <h3 class="home_section_title">發現更多</h3>
+    <h4 class="home_section_subtitle">還有許多超值商品等待您的探索!</h4>
 
-    <script>
-        $('.index_news_slider_container').slick({
-            dots: false,
-            arrows: true,
-            prevArrow: $('#index_news_slider_arrow_prev'),
-            nextArrow: $('#index_news_slider_arrow_next'),
-            infinite: false,
-            slidesToShow: 4,
-            slidesToScroll: 4,
-            autoplay:true,
-            autoplaySpeed:4000,
-            speed:800,
-            responsive: [
-                {
-                    breakpoint: 1199,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
-                    }
-                },
-                {
-                    breakpoint: 767,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2,
-                    }
-                },
-                {
-                    breakpoint: 575,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                    }
-                },
-            ]
-        })
-    </script>
+    <div class="home_discover_container">
+        <a href="#" class="home_discover_block">
+            <div class="home_discover_img_wrap">
+                <img src="img/img2.png" alt="" class="home_discover_img">
+            </div>
+            <div class="home_discover_content">
+                <div class="home_discover_title">當季商品</div>
+                <div class="home_discover_more_text">更多 <i class="fas fa-arrow-right"></i></div>
+            </div>
+        </a>
+        <a href="#" class="home_discover_block">
+            <div class="home_discover_img_wrap">
+                <img src="img/img2.png" alt="" class="home_discover_img">
+            </div>
+            <div class="home_discover_content">
+                <div class="home_discover_title">限量商品</div>
+                <div class="home_discover_more_text">更多 <i class="fas fa-arrow-right"></i></div>
+            </div>
+        </a>
+    </div>
 </section>
 
 <?php include('php/foot.php'); ?>

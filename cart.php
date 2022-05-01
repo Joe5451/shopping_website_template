@@ -15,7 +15,7 @@
         <a href="cart.php" class="page_breadcrumb_link active">購物車</a>
     </nav>
 
-    <div class="custom_container">
+    <div class="cart_block">
         <div class="cart_container">
             <div class="cart_head">
                 <div class="cart_head_item cart_head_name">品項</div>
