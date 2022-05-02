@@ -781,6 +781,7 @@
 .index_news_slider_img {
     width: 100%;
     aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 .index_news_slider_more_mask {

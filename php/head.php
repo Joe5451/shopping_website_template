@@ -23,7 +23,7 @@
             <a href="welcome.php" class="main_header_link">首頁</a>
         </div>
         <div class="main_header_link_wrap">
-            <a href="news.php" class="main_header_link">最新消息</a>
+            <a href="news_list.php" class="main_header_link">最新消息</a>
         </div>
         <div class="main_header_link_wrap">
             <a href="product_list.php" class="main_header_link">購物商城</a>
@@ -54,7 +54,7 @@
             <a href="welcome.php" class="main_header_link_mobile">首頁</a>
         </div>
         <div class="main_header_link_wrap_mobile">
-            <a href="news.php" class="main_header_link_mobile">最新消息</a>
+            <a href="news_list.php" class="main_header_link_mobile">最新消息</a>
         </div>
         <div class="main_header_link_wrap_mobile">
             <a href="product_list.php" class="main_header_link_mobile">購物商城</a>
